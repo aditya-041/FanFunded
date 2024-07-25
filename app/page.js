@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -22,17 +23,17 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-14">Your Fans Can Support You</h2>
         <div className="flex gap-5 justify-around">
           <div className="item space-y-3 flex flex-col justify-center items-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/man.gif" alt="" />
+            <Image className="bg-slate-400 rounded-full p-2 text-black" width={88} height={88} src="/man.gif" alt="" />
             <p className="font-bold text-center">Fans want to help</p>
             <p className="text-center">Your fans are available for you to help you</p>
           </div>
           <div className="item space-y-3 flex flex-col justify-center items-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/coin.gif" alt="" />
+            <Image className="bg-slate-400 rounded-full p-2 text-black" width={88} height={88} src="/coin.gif" alt="" />
             <p className="font-bold text-center">Fans want to help</p>
             <p className="text-center">Your fans are available for you to help you</p>
           </div>
           <div className="item space-y-3 flex flex-col items-center justify-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" width={88} src="/group.gif" alt="" />
+            <Image className="bg-slate-400 rounded-full p-2 text-black" width={88} height={88} src="/group.gif" alt="" />
             <p className="font-bold text-center">Fans want to help</p>
             <p className="text-center">Your fans are available for you to help you</p>
           </div>
